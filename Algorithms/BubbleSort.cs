@@ -33,11 +33,11 @@ namespace Algorithms
                 }
             }
         }
-        public static void swap(int lElem, int rElem)
+        public static void swap(int lIndex, int rIndex)
         {
-            int temp = array[lElem];
-            array[lElem] = array[rElem];
-            array[rElem] = temp;
+            int temp = array[lIndex];
+            array[lIndex] = array[rIndex];
+            array[rIndex] = temp;
         }
         public static void printArray()
         {
