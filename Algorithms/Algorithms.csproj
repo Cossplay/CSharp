@@ -45,7 +45,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Algorithms.BubbleSort</StartupObject>
+    <StartupObject>Algorithms.InsertionSort</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="BinarySearch.cs" />
     <Compile Include="BubbleSort.cs" />
+    <Compile Include="InsertionSort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
